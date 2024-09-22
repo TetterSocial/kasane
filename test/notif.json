@@ -1,0 +1,266 @@
+[
+    {
+        "id": 309,
+        "type": "postDislike",
+        "isRead": true,
+        "targetPost": {
+            "id": "d2219802-31cb-49ec-af38-7fd8ac49282d",
+            "content": "test tet",
+            "createdAt": 1727016717560,
+            "rating": -1,
+            "likesCount": 0,
+            "dislikesCount": 1,
+            "repliesCount": 0,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "6CG77OmOxGOu1GdFLtJAtK82RQC2",
+                "username": "maxurt",
+                "createdAt": 1725909141349,
+                "avatarUrl": null,
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "createdAt": 1727027395318
+    },
+    {
+        "id": 296,
+        "type": "postLike",
+        "isRead": true,
+        "targetPost": {
+            "id": "7f2316bf-14f5-4c90-a11f-72aba4a1e485",
+            "content": "hello tetter this is a test post",
+            "createdAt": 1727023830657,
+            "rating": 1,
+            "likesCount": 1,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "WbKvfDsrzCObl9P7V4ZypIvFowj1",
+                "username": "gducrash",
+                "createdAt": 1725474975000,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FWbKvfDsrzCObl9P7V4ZypIvFowj1?alt=media&token=a3b9954f-74ac-471c-8e9d-ecd0c0897bcf",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "createdAt": 1727025124803
+    },
+    {
+        "id": 288,
+        "type": "postLike",
+        "isRead": true,
+        "targetPost": {
+            "id": "7a05f6ff-24bb-4075-a9bc-233b946e3396",
+            "content": "Writing a new tetter Rust client library for that blazingly fast🚀 Tetter client experience",
+            "createdAt": 1727021093725,
+            "rating": 2,
+            "likesCount": 2,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "WbKvfDsrzCObl9P7V4ZypIvFowj1",
+                "username": "gducrash",
+                "createdAt": 1725474975000,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FWbKvfDsrzCObl9P7V4ZypIvFowj1?alt=media&token=a3b9954f-74ac-471c-8e9d-ecd0c0897bcf",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "createdAt": 1727021290931
+    },
+    {
+        "id": 287,
+        "type": "postReply",
+        "isRead": true,
+        "targetPost": {
+            "id": "7a05f6ff-24bb-4075-a9bc-233b946e3396",
+            "content": "Writing a new tetter Rust client library for that blazingly fast🚀 Tetter client experience",
+            "createdAt": 1727021093725,
+            "rating": 2,
+            "likesCount": 2,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "TcRdhQvg9la8KO0JCP9y90SoLnm2",
+                "username": "tetter",
+                "createdAt": 1725907179531,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FTcRdhQvg9la8KO0JCP9y90SoLnm2?alt=media&token=5e5671fa-aea3-4c52-ae82-2410e1ef4bb1",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "reply": {
+            "id": "712a98be-f012-4ce3-908c-54f8b06bee2a",
+            "content": "Unfortunately not gonna be blazingly fast, because the servers are still running on a free Vercel tier",
+            "createdAt": 1727021275319,
+            "rating": 0,
+            "likesCount": 0,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "author": {
+                "id": "TcRdhQvg9la8KO0JCP9y90SoLnm2",
+                "username": "tetter",
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FTcRdhQvg9la8KO0JCP9y90SoLnm2?alt=media&token=5e5671fa-aea3-4c52-ae82-2410e1ef4bb1"
+            },
+            "quoting": null
+        },
+        "createdAt": 1727021276236
+    },
+    {
+        "id": 286,
+        "type": "postLike",
+        "isRead": true,
+        "targetPost": {
+            "id": "7a05f6ff-24bb-4075-a9bc-233b946e3396",
+            "content": "Writing a new tetter Rust client library for that blazingly fast🚀 Tetter client experience",
+            "createdAt": 1727021093725,
+            "rating": 2,
+            "likesCount": 2,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "TcRdhQvg9la8KO0JCP9y90SoLnm2",
+                "username": "tetter",
+                "createdAt": 1725907179531,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FTcRdhQvg9la8KO0JCP9y90SoLnm2?alt=media&token=5e5671fa-aea3-4c52-ae82-2410e1ef4bb1",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "createdAt": 1727021236893
+    },
+    {
+        "id": 281,
+        "type": "postReply",
+        "isRead": true,
+        "targetPost": {
+            "id": "6e6ee1ff-102d-4b2e-9319-a262babc1e96",
+            "content": "I'm tetting so hard right now,,,,,",
+            "createdAt": 1727015967089,
+            "rating": 1,
+            "likesCount": 1,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "kPatDrjPJ8N6oXs4Ur2XzEL29Kl1",
+                "username": "iri",
+                "createdAt": 1726402191207,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FkPatDrjPJ8N6oXs4Ur2XzEL29Kl1?alt=media&token=b82965ce-b0eb-4916-9e38-f1621a57127f",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "reply": {
+            "id": "9c7799eb-dc56-40e0-b82b-4b4fd2b74b64",
+            "content": "ambatutet",
+            "createdAt": 1727017139038,
+            "rating": 0,
+            "likesCount": 0,
+            "dislikesCount": 0,
+            "repliesCount": 0,
+            "savesCount": 0,
+            "author": {
+                "id": "kPatDrjPJ8N6oXs4Ur2XzEL29Kl1",
+                "username": "iri",
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FkPatDrjPJ8N6oXs4Ur2XzEL29Kl1?alt=media&token=b82965ce-b0eb-4916-9e38-f1621a57127f"
+            },
+            "quoting": null
+        },
+        "createdAt": 1727017139981
+    },
+    {
+        "id": 280,
+        "type": "postLike",
+        "isRead": true,
+        "targetPost": {
+            "id": "6e6ee1ff-102d-4b2e-9319-a262babc1e96",
+            "content": "I'm tetting so hard right now,,,,,",
+            "createdAt": 1727015967089,
+            "rating": 1,
+            "likesCount": 1,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "kPatDrjPJ8N6oXs4Ur2XzEL29Kl1",
+                "username": "iri",
+                "createdAt": 1726402191207,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FkPatDrjPJ8N6oXs4Ur2XzEL29Kl1?alt=media&token=b82965ce-b0eb-4916-9e38-f1621a57127f",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "createdAt": 1727017122459
+    },
+    {
+        "id": 178,
+        "type": "postLike",
+        "isRead": true,
+        "targetPost": {
+            "id": "ea7f9528-4eeb-4cd5-99f6-87783ca39f3d",
+            "content": "teto",
+            "createdAt": 1726915944988,
+            "rating": 1,
+            "likesCount": 1,
+            "dislikesCount": 0,
+            "repliesCount": 0,
+            "savesCount": 0,
+            "parent": null,
+            "quoting": null
+        },
+        "authors": [
+            {
+                "id": "TcRdhQvg9la8KO0JCP9y90SoLnm2",
+                "username": "tetter",
+                "createdAt": 1725907179531,
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FTcRdhQvg9la8KO0JCP9y90SoLnm2?alt=media&token=5e5671fa-aea3-4c52-ae82-2410e1ef4bb1",
+                "role": "member",
+                "friendsCount": 0,
+                "postsCount": 0
+            }
+        ],
+        "createdAt": 1726917214101
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "post": {
+            "id": "712a98be-f012-4ce3-908c-54f8b06bee2a",
+            "content": "Unfortunately not gonna be blazingly fast, because the servers are still running on a free Vercel tier",
+            "createdAt": 1727021275319,
+            "rating": 0,
+            "likesCount": 0,
+            "dislikesCount": 0,
+            "repliesCount": 1,
+            "savesCount": 0,
+            "author": {
+                "id": "TcRdhQvg9la8KO0JCP9y90SoLnm2",
+                "username": "tetter",
+                "avatarUrl": "https://firebasestorage.googleapis.com/v0/b/tetter-social.appspot.com/o/user%2Favatars%2FTcRdhQvg9la8KO0JCP9y90SoLnm2?alt=media&token=5e5671fa-aea3-4c52-ae82-2410e1ef4bb1"
+            },
+            "quoting": null
+        },
+        "replies": [
+            {
+                "post": {
+                    "id": "e81d8bfd-980d-4760-8057-44eb8ec32eae",
+                    "content": "yes i know but now you can spam tetter even faster than the web client",
+                    "createdAt": 1727021644750,
+                    "rating": 0,
+                    "likesCount": 0,
+                    "dislikesCount": 0,
+                    "repliesCount": 0,
+                    "savesCount": 0,
+                    "author": {
+                        "id": "zqgwimIMenTERUOYsv4aEk5nFgQ2",
+                        "username": "cappyishihara",
+                        "avatarUrl": null
+                    },
+                    "quoting": null
+                },
+                "replies": []
+            }
+        ]
+    }
+]
