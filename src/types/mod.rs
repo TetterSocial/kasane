@@ -37,7 +37,7 @@ where
 {
     let opt_i64 = Option::deserialize(deserializer)?;
     Ok(opt_i64
-        .map(|i| chrono::DateTime::from_timestamp_millis(i))
+        .map(chrono::DateTime::from_timestamp_millis)
         .unwrap_or_default())
 }
 
