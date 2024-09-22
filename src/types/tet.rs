@@ -1,14 +1,14 @@
 //! Tets
-//! 
+//!
 //! Tets are "posts", only worthy to be seen by the eyes of Kasane Teto.
-//! 
+//!
 //! Tets are the main content of the site, and are the primary way to interact with the site.
-//! 
+//!
 //! Tets can be rated, replied to, and saved.
 
+use super::{user::User, ApiResult};
 use serde::{Deserialize, Serialize};
 use uuid::Uuid;
-use super::{deserialize_ts_from_opt_i64, serialize_ts_to_opt_i64, user::User, ApiResult};
 
 use crate::{call_api, Client};
 
@@ -158,7 +158,7 @@ impl Tet {
     pub async fn reply(&self, client: &Client, content: &str) -> ApiResult<Tet> {
         ComposePost::compose(client, content, Some(self.id)).await
     }
-    
+
     /// Rate this post
     pub async fn rate(&self, client: &Client, rating: Rating) -> ApiResult<()> {
         RatePost::rate(client, self.id, rating).await

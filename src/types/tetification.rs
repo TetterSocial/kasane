@@ -1,12 +1,10 @@
 //! Tetifications
-//! 
+//!
 //! Tetifications are notifications that are sent to users when certain events occur. These events include:
-//! 
+//!
 //! - Someone Yeahs or throws tomatoes at your post
 //! - Someone replies to your post
 //! - Someone shouts on your profile
-
-
 
 use super::Tet;
 use super::{deserialize_ts_from_opt_i64, serialize_ts_to_opt_i64, user::User, ApiResult};
@@ -28,11 +26,11 @@ pub enum TetificationType {
 #[serde(rename_all = "camelCase")]
 pub struct Tetification {
     /// The ID of the tetification
-    /// 
+    ///
     /// This is an incrementing integer that is unique to each tetification for
     /// every user.
     id: i32,
-    
+
     /// The date this tetification was created
     #[serde(deserialize_with = "deserialize_ts_from_opt_i64")]
     #[serde(serialize_with = "serialize_ts_to_opt_i64")]
@@ -70,7 +68,7 @@ impl Tetification {
         let tetifications = res.json::<Vec<Tetification>>().await?;
         Ok(tetifications)
     }
-    
+
     pub async fn mark_all_read(client: &Client) -> ApiResult<()> {
         call_api(
             client,
@@ -88,13 +86,13 @@ impl Tetification {
 mod tests {
     use super::*;
     use test_log::test;
-    
+
     #[test]
     fn parse_tetifications() {
         let notif_str = include_str!("../../test/notif.json");
-        
+
         let notif: Vec<Tetification> = serde_json::from_str(notif_str).unwrap();
-        
+
         println!("{:#?}", notif);
     }
 }

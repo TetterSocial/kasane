@@ -1,18 +1,17 @@
 //! User-related API endpoints and types.
-//! 
+//!
 //! Users are the main entities on Tetter. They can post, reply, and interact with other users.
-//! 
+//!
 //! Users can also be rated, replied to, and saved.
-//! 
+//!
 //! To interact with Tetter, you need a user account, and get the token from the user account.
 
-use serde::{Deserialize, Serialize};
 use super::{deserialize_ts_from_opt_i64, serialize_ts_to_opt_i64};
+use serde::{Deserialize, Serialize};
 
 use crate::{call_api, Client};
 
 use super::ApiResult;
-
 
 /// A user on Tetter
 #[derive(Serialize, Deserialize, Debug)]
@@ -88,7 +87,6 @@ impl User {
         Ok(user)
     }
 }
-
 
 #[derive(Serialize, Deserialize, Debug)]
 #[serde(rename_all = "lowercase")]

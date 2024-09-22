@@ -49,8 +49,7 @@ impl Client {
         let token = token
             .map(|t| t.trim().to_string())
             .filter(|t| !t.is_empty())
-            .map(|t| t.trim_start_matches("Bearer ").to_string())
-        ;
+            .map(|t| t.trim_start_matches("Bearer ").to_string());
 
         if let Some(token) = token {
             headers.insert(

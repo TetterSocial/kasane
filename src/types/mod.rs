@@ -8,7 +8,6 @@ pub use tet::*;
 pub mod user;
 pub use user::*;
 
-
 #[derive(Serialize, Deserialize, Debug, Error)]
 #[serde(rename_all = "camelCase")]
 #[error("Tetter error: {error}: {message}")]
@@ -29,7 +28,6 @@ pub enum Error {
 }
 
 pub type ApiResult<T> = Result<T, Error>;
-
 
 fn deserialize_ts_from_opt_i64<'de, D>(
     deserializer: D,
