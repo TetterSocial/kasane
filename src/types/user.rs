@@ -86,6 +86,22 @@ impl User {
         let user = res.json::<User>().await?;
         Ok(user)
     }
+
+    /// Change the current user's profile picture.
+    ///
+    /// Only accepts a URL to an image at the moment.
+    pub async fn change_avatar(client: &Client, url: &str) -> ApiResult<()> {
+        let res = call_api(
+            client,
+            reqwest::Method::POST,
+            "accounts/updateProfile",
+            Some(serde_json::json!({ "avatarUrl": url })),
+            None,
+        )
+        .await?;
+        let _ = res.json::<()>().await?;
+        Ok(())
+    }
 }
 
 #[derive(Serialize, Deserialize, Debug)]
